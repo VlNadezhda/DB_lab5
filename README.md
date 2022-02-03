@@ -26,14 +26,31 @@ price_doc
 
 Предсказательная модель (линейная регрессия):
 
+![изображение](https://user-images.githubusercontent.com/46747544/152306132-478fd5e9-2712-4684-ae0f-6156556d42aa.png)
+![изображение](https://user-images.githubusercontent.com/46747544/152306150-68dd9bc8-da1e-406f-bf4c-c7d88e8a08c2.png)
+
 Подгонка модели, удаление выбросов, алгоритм RANSAC()
 residual_threshold для price_doc = 25000, life_sq = 10.
+
+![изображение](https://user-images.githubusercontent.com/46747544/152306169-5c0ff881-3711-4891-b91f-9526284ecfc9.png)
+![изображение](https://user-images.githubusercontent.com/46747544/152306186-7f1888c6-f5ee-423e-885a-51b7a39f01bd.png)
 
 Оценка качества модели ( средневзвешенная квадратичная
 ошибка (MSE), коэффициент детерминации R 2, график ), коэффициент детерминации R 2, график
 остатков):
 
+![изображение](https://user-images.githubusercontent.com/46747544/152306199-cb608b74-aca2-44c9-bd7f-f8c724dca4a2.png)
+![изображение](https://user-images.githubusercontent.com/46747544/152306210-537ae9dc-a386-4ef5-9046-4d94b1262693.png)
+![изображение](https://user-images.githubusercontent.com/46747544/152306227-b853d5e8-f686-4bef-94e3-4a9be2f3e7f6.png)
+![изображение](https://user-images.githubusercontent.com/46747544/152306242-2b75568e-2aed-49e1-a391-48d200f9bfaa.png)
+
 Полиномиальная предсказательная модель
 (линейная,квадратичная, кубическая):
 
+![изображение](https://user-images.githubusercontent.com/46747544/152306266-7601eb7a-cb64-4cd1-8924-6c666f4fd3d6.png)
+![изображение](https://user-images.githubusercontent.com/46747544/152306281-7d8ab7a3-698d-40e9-93e6-ee56c09c90b9.png)
+
 Предсказательная модель RandomForestRegressor:
+
+![изображение](https://user-images.githubusercontent.com/46747544/152306301-555a35c9-178a-4bed-95c4-f436dd71b73d.png)
+![изображение](https://user-images.githubusercontent.com/46747544/152306318-1d2d08cc-c2dc-4344-9028-87121dbf5b9e.png)
